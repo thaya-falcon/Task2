@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Side Navigation Bar</title>
+	<link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="progresscircle.css">
+
+	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+
+<div class="wrapper ">
+    <div class="sidebar">
+        <h4><a href="#"><i class="text-white mt-2 fas fa-store-alt"></i></a></h4>
+        <div class="center">
+        <ul>
+            <li><a href="#"><i class="fas fa-chart-pie"></i></a></li>
+            <li><a href="#"><i class="fas fa-sticky-note"></i></li>
+            <li><a href="#"><i class="fas fa-user"></i></a></li>
+            <li><a href="#"><i class="fas fa-calendar-alt"></i></a></li>
+
+        </ul>
+    </div>
+
+
+        <div class="social_media">
+          <a href="#"><i class="fas fa-cog"></i></a>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="main_content">
+
+        <div class="draw col-2 p-4 pb-0 pt-0">
+            <p class="fw-bold fs-3">Design thinking and innovation <span class="text-primary">week#7</span></p>
+            <p class="text-muted mt-4 size"><i class="me-2 fas fa-map-marker-alt"></i> Chennai</p>
+            <i class="me-2 far fa-calendar"></i>
+            <span class="text-muted size" id="date"></span>
+
+            <h6 class="fw-bold mt-4 ">18%</h6>
+            <div class="progress mb-4" style="height: 5px;">
+
+                <div class="progress-bar" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <hr class="text-muted text-center">
+
+              <div class="d-flex flex-row size mt-5">
+                  <div class="d-flex flex-column pe-5">
+                  <h6 class="fw-bold">Export Report</h6>
+                  <p class="mt-2 text-muted">Download previous week report and export all</p>
+                  <div >
+
+                    <button class="x">Export</button>
+                    <button class="x y">Allow</button>
+                </div>
+
+                </div>
+                <p><i class="text-muted fas fa-file-export"></i></p>
+              </div>
+              <hr class="text-muted text-center">
+
+              <!--  -->
+              <div class="d-flex flex-row size mt-4">
+                <div class="d-flex flex-column pe-5">
+                <h6 class="fw-bold">Event Staus : <span class="text-primary">Live</span></h6>
+                <p class="mt-2 text-muted">Download previous week report and export all</p>
+
+
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+
+              </div>
+            </div>
+            <hr class="text-muted text-center">
+
+            <div class="d-flex flex-row size mt-4">
+                <div class="d-flex flex-column pe-5">
+                <h6 class="fw-bold">Event is public</h6>
+                <p class="mt-2 text-muted">Download previous week report and export all</p>
+
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+
+              </div>
+            </div>
+            <hr class="text-muted text-center">
+
+            <div class="d-flex flex-row size mt-4">
+                <div class="d-flex flex-column pe-5">
+                <h6 class="fw-bold">Promotion Tips</h6>
+                <p class="mt-2 text-muted">Download previous week report and export all</p>
+                <div >
+
+                  <button class="x y">Allow</button>
+              </div>
+
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+
+              </div>
+            </div>
+            <hr class="text-muted text-center">
+
+            <div class="d-flex flex-row size mt-4">
+                <div class="d-flex flex-column pe-5">
+                <h6 class="fw-bold">Taxes</h6>
+                <p class="mt-2 text-muted">Download previous week report and export all dipisicing elit. A sed nobis ut </p>
+
+              </div>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+
+              </div>
+            </div>
+
+
+
+            <!--  -->
+
+        </div>
+
+
+        <div class="info">
+
+            <div class="user">
+                <ul class="d-flex flex-row  fw-bold fs-5 "  >
+                    <li class="me-5"><a href="#">Event Dashboars</a></li>
+                    <li class="me-5"><a class="text-muted" href="#">Event Design</a></li>
+                    <li class="me-5 text-muted"><a class="text-muted" href="#">Event Setting</a></li>
+
+                </ul>
+
+            </div>
+
+
+
+
+            <div class="row">
+                <div class="col-6">
+                    <div class="d-fex flex-column">
+                        <div class="contain bg-white">
+                            <div class="draggable" draggable="true">
+                            <canvas  style="border: green;" id="myline" >hi</canvas>
+                        </div>
+
+
+                        </div>
+                        <div class="contain bg-white">
+                            <div class="draggable" draggable="true">
+                                <canvas  id="my" style="border: green;" >hi</canvas>
+                            </div>
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+                </div>
+                <div class="col-3">
+
+                  <div class="contain bg-white">
+                      <div class="draggable" draggable="true">
+                        <div >
+
+                          <div class="form-check  d-flex flex-row justify-content-between">
+                            <input class="form-check-input bg-primary" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label fw-bold" for="exampleRadios1">
+                            TICKETS
+                            </label>
+                            <i class="fas fa-ellipsis-v"></i>
+                          </div>
+
+
+                            <div class="circlechart d-flex flex-column justify-content-center align-items-center mt-5 mb-5"
+                             data-percentage="78">
+                            SOLD ITEMS
+                        </div>
+
+                        <!-- <div class="d-flex flex-row"> -->
+                          <div class="d-flex flex column justify-content-between">
+                          <p class="text-primary fw-bold">cost</p>
+                          <p class="text-primary fw-bold">cost</p>
+
+                        </div>
+                        <div class="d-flex flex column justify-content-between">
+                          <p class="fs-4 fw-bold text-muted"><i class="fas fa-dollar-sign"></i>2300</p>
+                          <p class="fs-4 fw-bold text-muted" ><i class="fas fa-dollar-sign"></i>7500</p>
+                        </div>
+
+                        </div>
+                      </div>
+
+
+                  </div>
+                  <div class="contain bg-white">
+                      <div class="draggable" draggable="true">
+                        <div >
+
+                          <div class="form-check  d-flex flex-row justify-content-between">
+                            <input class="form-check-input bg-danger" type="radio" name="exampleRadio" id="exampleRadios" value="option" checked>
+                            <label class="form-check-label fw-bold" for="exampleRadios">
+                             EVENT GOALS
+                            </label>
+                            <i class="fas fa-ellipsis-v"></i>
+                          </div>
+
+
+                            <div class="circlechart d-flex flex-column justify-content-center align-items-center mt-5 mb-5"
+                             data-percentage="25">
+                             TOTAL USERS
+                        </div>
+
+                        <!-- <div class="d-flex flex-row"> -->
+                          <div class="d-flex flex column justify-content-between">
+                          <p class="text fw-bold">cost</p>
+                          <p class="text fw-bold">cost</p>
+
+                        </div>
+                        <div class="d-flex flex column justify-content-between">
+                          <p class="fs-4 fw-bold text-muted"><i class="fas fa-dollar-sign"></i>2300</p>
+                          <p class="fs-4 fw-bold text-muted" ><i class="fas fa-dollar-sign"></i>7500</p>
+                        </div>
+
+                        </div>
+                      </div>
+
+
+                  </div>
+
+              </div>
+
+                <div class="col-3 vb">
+
+
+                    <div class="d-flex flex-column">
+                        <div class="contain bg-primary">
+                            <div class="bg-primary text-white draggable" draggable="true">
+                            <canvas  style="border: green;" id="line1" >hi</canvas>
+                        </div>
+
+
+                        </div>
+                        <div class="contain bg-white">
+                            <div class="draggable" draggable="true">
+                                <canvas  id="line2" style="border: green;" >hi</canvas>
+                            </div>
+
+
+                        </div>
+                        <div class="contain bg-white">
+                            <div class="draggable" draggable="true">
+                                <canvas  id="line3" style="border: green;" >hi</canvas>
+                            </div>
+
+
+                        </div>
+                        <div class="contain bg-white">
+                            <div class="draggable" draggable="true">
+                                <div class="card">
+                                    <h6 class="fw-bold text-dark text-uppercase mb-5">Email Campaign</h6>
+                                    <p class="fw-bold text-dark text-uppercase">send emails<span class="text-danger fw-bold mt-4 "> -18%</span></p>
+                                    <div class="progress" style="height: 5px;">
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width:25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                                      <p class="fw-bold text-dark text-uppercase">cta clicks<span class="fw-bold mt-4 "> +65% </span></p>
+                                      <div class="progress" style="height: 5px;">
+                                        <div class="progress-bar" role="progressbar" style="width:65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                      </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+                </div>
+
+
+
+              </div>
+
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- </div> -->
+
+<!-- <div class="circlechart"
+     data-percentage="60">
+     50%
+</div> -->
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="progresscircle.js"></script>
+<!-- <script src="jquery.wave.min.js"></script> -->
+
+
+<script src="app.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
